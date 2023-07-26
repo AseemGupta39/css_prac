@@ -1,14 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
+    /* color: black; */
     font-size: large;
 }
 
 #navbar{
     height: 50px;
     background-color: black;
-
 }
 
 button{
@@ -19,12 +18,43 @@ button{
     font-size: 25px;
     color: #f08804;
     padding-left: 20px;
-}
+}  
 
 a{
     margin-right: 200px;
     text-decoration: none;
+    color: white;
 }
-/* #srchbar{
+
+#srchbar{
     margin-left: 20px;
-} */
+} 
+
+/* div{
+    display: inline;
+}
+button{display: block; } */
+
+.contentBox{
+    /* height: 100px; */
+    width: 100px;
+    border: 4px solid black;
+    display: inline-block ;
+}
+
+#content{
+height: 700px;
+}
+
+footer{
+    /* padding-left: 15px; */
+    /* display: block; */
+    /* margin-right: 0; */
+    /* padding: 0 0 0 0; */
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+    /* position: fixed; */
+    /* bottom: 0; */
+
+}
