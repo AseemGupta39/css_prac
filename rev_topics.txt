@@ -1,0 +1,3 @@
+hieght 
+width vh and all
+position all types
